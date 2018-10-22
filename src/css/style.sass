@@ -1,0 +1,94 @@
+@import "~bootstrap/scss/bootstrap"
+@import "../../node_modules/hamburgers/_sass/hamburgers/hamburgers";
+// @import '../../node_modules/sowl.carousel/dist/assets/owl.carousel'
+body 
+	// height: 100%
+	box-sizing: border-box
+	line-height: 1.6
+	font-size: 16px
+	margin: 0
+	padding: 0
+	position: relative
+.none
+	display: none
+button.hamburger:focus
+	outline: none
+.header-inner
+	display: flex
+	flex-direction: column
+	.hamburger
+		display: none
+.header-inner.breakpoint
+	flex-direction: row
+	justify-content: space-between
+.header-inner.breakpoint 
+	.hamburger
+		display: block
+header
+	text-align: center
+	padding: 15px  0px 
+	background-color: rgba(#000, 0.7)
+	h2
+		font-family: "gloria"
+		font-size: 30px
+		color: #fff
+		margin-bottom: 15px
+	nav
+		.navigation
+			margin: 0px
+			padding: 0px
+			justify-content: center
+			display: flex
+			li
+				list-style: none
+				padding: 0px 20px 
+				transition: all 0.3s ease
+				a
+					padding: 5px 20px
+					display: block
+					font-family: 'dinpro'
+					color: #fff
+				&:hover
+					background-color: rgba(#fff, 0.5)
+					transition: all 0.3s ease
+					a
+						color: rgb(255, 213, 0)
+						text-decoration: none
+						/***********main section***************/
+main
+	.parent-mobile-menu
+		position: relative						
+						/***********form section***************/
+.calculate-price.disable
+	display: none
+.calculate-price
+	height: 100%
+	width: 100%
+	position: absolute
+	top: 0
+	left: 0
+	z-index: 5
+	.calculate-price-overlay
+		width: 100%
+		height: 100%
+		position: absolute
+		left: 0
+		top: 0
+		background: rgba(#000, 0.5)
+		z-index: -1
+	.form-product
+.sc-slide
+	.slider
+		min-height: 500px
+		position: relative
+		.slider-child
+			position: relative
+			img
+				position: absolute
+				top: 0
+				left:  0
+				width: 100%
+				height: 100%
+
+
+// @import './media'

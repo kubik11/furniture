@@ -1,0 +1,12 @@
+@font-face{
+	font-family: 'dinpro';
+	font-weight: 400;
+	font-style: normal;
+	src: url('../fonts/DinPro/dinpro-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/DinPro/dinpro-regular.woff') format('woff'), url('../fonts/DinPro/dinpro-regular.ttf') format('truetype');
+}
+@font-face{
+	font-family: 'gloria';
+	font-weight: 400;
+	font-style: normal;
+	src: url('../fonts/gloria/gloriahallelujah.eot?#iefix') format('embedded-opentype'), url('../fonts/gloria/GloriaHallelujah.woff') format('woff'), url('../fonts/gloria/GloriaHallelujah.ttf') format('truetype');
+}		

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Webpack trainy</title>
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" media="screen"> -->
+	<!-- <link rel="stylesheet" href="dist/style.css"> -->
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="header-inner">
+				<h2 class="capture">Furniture for every fucking bastrad</h2>
+				<nav class="main-nav">
+					<ul class="navigation">
+						<li><a href="#" id="1">Наша мебель</a></li>
+						<li><a href="#" id="2">Контакты</a></li>
+						<li><a href="#" id="3">Цены</a></li>
+						<li><a href="#" id="4">Расчитать проект</a></li>
+					</ul>
+				</nav>
+				<button class="hamburger hamburger--collapse is-active" type="button">
+					<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+					</span>
+				</button>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="container parent-mobile-menu">
+			<section class="mobile-menu">
+				
+			</section>	
+			<section class="sc-slide">
+				<div class="slider">
+					<div class="slider-child"> <img src="img/images.jpg"> 123</div>
+					<div class="slider-child"><img src="img/images_1.jpg">456</div>
+					<div class="slider-child"><img src="img/images_2.jpg">789</div>
+					<div class="slider-child"><img src="img/images_3.jpg">000</div>
+				</div>
+			</section>	
+			<img src="img/images.jpg" alt="">
+			<section class="calculate-price disable">
+				<div class="calculate-price-overlay"></div>
+				<div class="container">
+					<form id="form-product" class="form-product">
+					<div class="form-group">
+						<label for="exampleInputEmail1">Email address</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+						<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+					</div>
+					<div class="form-group">
+						<label for="exampleInputPassword1">Name</label>
+						<input type="text" class="form-control" id="exampleInputName1" placeholder="name">
+					</div>
+					<div class="form-group">
+						<label for="exampleInputPassword1">Description</label>
+						<textarea name="description" id="description" cols="30" rows="10" class="form-control"></textarea>
+					</div>
+					<div class="form-group">
+						<label for="exampleFormControlFile1">Example file input</label>
+						<input type="file" class="form-control-file" id="exampleFormControlFile1">
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
+			</section>
+		</div>
+	</main>
+		
+	<script src="bundle.js"></script>
+</body>
+</html>
